@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Job Application Form</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+            background: lightseagreen;
+            margin: 0;
+            margin-bottom: 100px;
+        }
+        h2{
+            background: orangered;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        td{
+            padding: 7px;
+        }
+    </style>
+
+</head>
+<body>
+<h1 align="center">Online Job Apllication Form</h1>
+
+<form action="">
+    <div id="personal-information">
+        <h2>Persona Information</h2>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="firstname" size="25"></td>
+                <td>Middle Name</td>
+                <td><input type="text" name="middlename" size="25"></td>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname" size="25"></td>
+            </tr>
+            <tr>
+                <td>Father's name</td>
+                <td><input type="text" name="fahersname" size="25"></td>
+                <td>Mother's Name</td>
+                <td><input type="text" name="mothersname" size="25"></td>
+            </tr>
+            <tr>
+                <td>Current Address</td>
+                <td><textarea name="currentaddress" id="" cols="50" rows="10"></textarea></td>
+                <td>Permanent Address</td>
+                <td><textarea name="permanentaddress" id="" cols="50" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Phone Numbers</td>
+            </tr>
+            <tr>
+                <td>Home Phone</td>
+                <td><input type="tel"></td>
+                <td>Mobile Phone</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+                <td>Place of Birth</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Select Gender</td>
+                <td><input type="radio" name="gender" value="male">Male</td>
+                <td><input type="radio" name="gender" value="female">Female</td>
+            </tr>
+
+            <tr>
+                <td>Highest Qualification</td>
+                <td><input type="text"size="25"></td>
+                <td>Year of Passing</td>
+                <td><input type="month"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Languages Known</td>
+                <td><input type="checkbox" value="english">English</td>
+                <td><input type="checkbox" value="telugu">Telugu</td>
+                <td><input type="checkbox" value="hindi">Hindi</td>
+            </tr>
+            <tr>
+                <td colspan="2">Hobbies</td>
+                <td><input type="checkbox" value="coding">Coding</td>
+                <td><input type="checkbox" value="sleeping">Sleeping</td>
+                <td><input type="checkbox" value="reading">Reading</td>
+            </tr>
+            <tr>
+                <td>About yourself</td>
+                <td colspan="3">
+                    <textarea name="bio" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><
+                    <select name="country" id="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="England">England</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Aadhar card number</td>
+                <td><input type="number" size="25"></td>
+                <td>PAN card number</td>
+                <td><input type="text" size="25"></td>
+            </tr>
+        </table>
+    </div>
+    <!--Education Details-->
+    <div id="education-details">
+        <h2>Education Details</h2>
+        <table width="100%">
+            <tr>
+                <td>SNo</td>
+                <td>Qualification</td>
+                <td>Institute/University</td>
+                <td>Marks in %</td>
+            </tr>
+        </table>
+
+    </div>
+
+</form>
+
+</body>
+</html>
